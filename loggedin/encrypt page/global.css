@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	font:1.1em 'Copper Black';
+	background-image: url('eback.jpg');
+	background-size: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4285f4;
+}
+
+.topnav a.active {
+  background-color:#656d7e;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-weight: 400;
+}
+
+
+@media screen and (max-width: 660px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.hidden{
+	display: none;
+}
+
+.wrapper{
+	padding-top: 0.5%;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.upload-console{
+	color: #454745;
+	border-radius: 10px;
+	background: #dee4e833;
+	border:2px solid #eee;
+	padding: 20px;
+}
+
+.upload-console-header{
+	padding: 0 0 20px 0;
+	margin: 0;
+	border-bottom: 2px solid #eee;
+	font-weight: 600; 
+	margin-bottom: 20px;
+}
+
+.upload-console-drop{
+	height: 200px;
+	border:2px dashed #6c6b6bf0;
+	border-radius: 20px;
+	line-height: 200px;
+	color: #6c6b6bf0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.upload-console-drop.drop{
+	border-color: #222;
+	color: #222; 
+}
+
+.upload-console-body{
+	margin-bottom: 20px;
+	color: #3d415f;
+}
+
+.bar{
+	width: 100%;
+	background: #eee;
+	padding: 3px;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.bar-fill {
+	height: 20px;
+	display: block;
+	background: #1a73e8;
+	width: 0;
+	border-radius: 3px; 
+	-webkit-transition: width 0.8s ease;
+	transition: width 0.8s ease;
+}
+
+.bar-fill-text{
+	color:#FFF;
+	line-height: 20px;
+	margin-left: 5px;
+}
+
+.upload-console-upload{
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 10px; 
+}
+
+.upload-console-upload span{
+	float: right;
+}

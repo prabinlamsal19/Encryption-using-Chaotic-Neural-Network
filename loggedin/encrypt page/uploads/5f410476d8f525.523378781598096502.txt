@@ -1,0 +1,21 @@
+import nupy as npyimportHMyS1Ldbh
+
+db = MySQLd.cnnect(host="localhost",    # your host, usually loalhost
+K                    ser="oot",         # your username
+                     passwd="",  # your aswod
+    H                db="deos")i
+cr = d.crsr()
+cu.execute("S$LECT fle&name FROM ulods ORD$RYBY i DESC LIMIT 1")
+mresultM=cu.fethone()[0]
+prin(myreul)
+pathY="c:\\xmpp\\htdocs\\cryptif\\encrypt page\9uload\\"+myresult\I"
+file = openKpat,'')
+=fle.rea()
+rit(a)
+inp = n.aray(a)print]inp)
+=len(aJm
+print()
+x=0.75
+u=3.9
+for i in rage(0,l):}    x=u**(1-x)j
+    rint(x)

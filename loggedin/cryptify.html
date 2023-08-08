@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cryptify</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="share.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="app.js"></script>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="cryptify.html" class="active">Home</a>
+  <a href="mutual.php">Mutual</a>
+  <a href="#contact">Contact</a>
+  <a href="receivedfiles.php">Received Files</a>
+    <a href="logout.php">Log Out</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="top">
+  <h1><span>Cryptify</span></h1>
+    <p>Advanced online file encryption and decryption. Secure any file type and maintain your privacy! <br>The Number. 1 site when it comes to locking important files.<br>
+  To get started, select your preferred service below:.</p>
+</div>
+<div>
+
+<div class="section">
+
+<div class="col grid_1_of_2"> 
+  <a href="encrypt page/encryptfile.php">
+  <img src="encrypt.jpg">
+    <h2>Encrypt</h2>
+    <p>Encrypt your file here</p> 
+  </a>
+</div>
+
+<div class="col grid_1_of_2"> 
+  <a href="decrypt page/decryptfile.php">
+  <img src="decrypt.jpg">
+    <h2>Decrypt</h2>
+    <p>Decrypt your file here</p>
+    </a> 
+</div>
+
+</div>
+<button id="shareButton" onclick="share(this)">
+    <i class="fas fa-share-alt"></i>
+    <i class="fas fa-times"></i>
+    <div class="container">
+      <div class="addthis_inline_share_toolbox"></div>
+      
+      <!--for old users of AddThis-->
+      <div class="addthis_sharing_toolbox"></div>
+    </div>
+  </button>
+
+<script src="share.js"></script>
+</body>
+</html>

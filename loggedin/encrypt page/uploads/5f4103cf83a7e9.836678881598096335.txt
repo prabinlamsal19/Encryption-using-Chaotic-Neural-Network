@@ -1,0 +1,24 @@
+import numpy as np
+import MySQLdb
+
+db = MySQLdb.connect(host="localhost",    # your host, usually localhost
+                     user="root",         # your username
+                     passwd="",  # your password
+                     db="demos")
+cur = db.cursor()
+cur.execute("SELECT file_name FROM uploads ORDER BY id DESC LIMIT 1")
+myresult =cur.fetchone()[0]
+print(myresult)
+path ="c:\\xampp\\htdocs\\cryptify\\encrypt page\\uploads\\"+myresult+""
+file = open(path,'r')
+a=file.read()
+print(a)
+inp = np.array(a)
+print(inp)
+l=len(a)
+print(l)
+x=0.75
+u=3.9
+for i in range(0,l):
+    x=u*x*(1-x)
+    print(x)

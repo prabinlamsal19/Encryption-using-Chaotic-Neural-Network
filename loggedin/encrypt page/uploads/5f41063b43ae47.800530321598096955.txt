@@ -1,0 +1,13 @@
+import numpy as np
+a =  "hello123" 
+print(a)
+inp = np.array(a)
+print(inp)
+l=len(a)- a.count(" ")
+print(l)
+z=print("".join(f"{ord(i):08b}"'\n' for i in a))
+x=0.75
+u=3.9
+for i in range(0,l):
+    x=u*x*(1-x)
+    print(x)
